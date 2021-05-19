@@ -1,7 +1,7 @@
 # Jest + Supertest API testing framework:
 
-1. To intall all dependecies run command: `npm init`
-2. To run test you should run command: `npm run jest:test `
+1. To intall all dependecies run command: `npm i`
+2. To run test you should run command: `npm run jest:test`
 3. All test results will be present in `report.html` file
 
 > NOTE:

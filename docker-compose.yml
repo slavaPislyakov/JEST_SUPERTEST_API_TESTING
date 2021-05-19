@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ubuntunode:
+    build:
+      context: .
+    volumes:
+      - ./reporter:/usr/src/my_app/reporter
