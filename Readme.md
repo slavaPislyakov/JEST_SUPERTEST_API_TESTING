@@ -9,6 +9,8 @@ To run test localy:
 To run test in docker:
 1. Run `docker-compose build`
 2. Run `docker-compose up`
+
+To remove container after `docker-compose up` use command: `docker-compose rm -f`
 ---
 
 All test results will be present in `report.html` file
