@@ -13,7 +13,7 @@ describe('my third test', () => {
   });
 
   test('third test', () => {
-    userBodyResponse = JSON.parse(userResponse.text);
+    const userBodyResponse = JSON.parse(userResponse.text);
     console.log(userResponse.text);
 
     expect(userBodyResponse.status).toEqual('ERROR');
